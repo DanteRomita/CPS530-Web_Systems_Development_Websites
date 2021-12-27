@@ -17,4 +17,4 @@ Lab 6 Part B - City, Province/State, Population and URL Picture: https://www.cs.
 Lab 7 Part A - Mr. Potato Head Creator: https://www.cs.ryerson.ca/~dromita/cps530/labs/Lab_7/cps530_Lab7_P1.html<br />
 Lab 7 Part B - Song Album Art and Description: https://www.cs.ryerson.ca/~dromita/cps530/labs/Lab_7/cps530_Lab7_P2.html<br />
 Term Project - Password Strength Checker: https://cps530-termproject-dromita-esword-mdlam.azurewebsites.net<br />
-  NOTE: Code for this project is contained in the RazorPagesUI.zip folder.
+---> NOTE: Code for this project is contained in the RazorPagesUI.zip folder.
