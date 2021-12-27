@@ -16,4 +16,5 @@ Lab 6 Part A - Background Generation: http://dromita-lab6.somee.com<br />
 Lab 6 Part B - City, Province/State, Population and URL Picture: https://www.cs.ryerson.ca/~dromita/cps530/labs/Lab_6/cps530_Lab6_P2-form.html<br />
 Lab 7 Part A - Mr. Potato Head Creator: https://www.cs.ryerson.ca/~dromita/cps530/labs/Lab_7/cps530_Lab7_P1.html<br />
 Lab 7 Part B - Song Album Art and Description: https://www.cs.ryerson.ca/~dromita/cps530/labs/Lab_7/cps530_Lab7_P2.html<br />
-Term Project - Password Strength Checker: https://cps530-termproject-dromita-esword-mdlam.azurewebsites.net
+Term Project - Password Strength Checker: https://cps530-termproject-dromita-esword-mdlam.azurewebsites.net<br />
+  NOTE: Code for this project is contained in the RazorPagesUI.zip folder.
