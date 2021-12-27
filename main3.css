@@ -1,0 +1,155 @@
+.container {
+    display:grid;
+    height:100vh;
+}
+
+#header {text-align: center; font-family:"arial black";}
+
+#text-centred {text-align: center;}
+
+nav {
+    background: navy;
+    grid-area: nav;
+    border-style: ridge;
+    border-width: thick;
+    border-color:lightslategray;
+    color: white;
+}
+
+#defaultDivMargin {margin: 2%;}
+
+/*Content Blocks*/
+
+#content1 {
+    background: tan;
+    grid-area: content1;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content2 {
+    background: palegreen;
+    grid-area: content2;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content3 {
+    background: tan;
+    grid-area: content3;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content4 {
+    background: palegreen;
+    grid-area: content4;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content5 {
+    background: tan;
+    grid-area: content5;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content6 {
+    background: palegreen;
+    grid-area: content6;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content6_ImageA {
+    grid-area: content6_ImageA;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content6_ImageB {
+    grid-area: content6_ImageB;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content7 {
+    background: tan;
+    grid-area: content7;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+footer {
+    background: palegreen;
+    grid-area: footer;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+
+@media only screen and (min-width: 901px) {
+    .container {
+        font-size: 1.5em;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 2fr 2fr 2fr 3fr;
+        grid-template-areas:
+            "nav nav nav nav nav nav nav nav nav nav nav nav"
+            "content1 content1 content1 content1 content2 content2 content2 content2 content3 content3 content3 content3"
+            "content4 content4 content4 content4 content4 content4 content5 content5 content5 content5 content5 content5"
+            "content6 content6 content6 content6 content6 content6 content6 content6 content6 content6 content6 content6"
+            "content6_ImageA content6_ImageA content6_ImageA content6_ImageA content6_ImageA content6_ImageA content6_ImageB content6_ImageB content6_ImageB content6_ImageB content6_ImageB content6_ImageB"
+            "content7 content7 content7 content7 content7 content7 content7 content7 content7 content7 content7 content7"
+            "footer footer footer footer footer footer footer footer footer footer footer footer"
+    }
+    /*body { font-size:2em;}*/
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .container {
+        font-size: 1.25em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 2fr 2fr 2fr 2fr 2fr 1fr 1fr;
+        grid-template-areas:
+            "nav nav"
+            "content1 content2"
+            "content3 content4"
+            "content5 content5"
+            "content6 content6"
+            "content6_ImageA content6_ImageB"
+            "content7 content7"
+            "footer footer"
+        ;
+    }    
+    /*body { font-size:1.5em;}*/
+}
+@media only screen and (max-width: 600px) {
+/*{body { font-size:1em;}*/
+    .container {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1fr;
+        grid-template-areas:
+            "nav"
+            "content1"
+            "content2"
+            "content3"
+            "content4"
+            "content5"
+            "content6"
+            "content6_ImageA"
+            "content6_ImageB"
+            "content7"
+            "footer"
+        ;
+    }
+}

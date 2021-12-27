@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" name="viewport"/>
+    <title>CPS530 Lab 3 Part B by Dante Romita</title>
+</head>
+
+<body>
+    <style>
+        #defaultDivMargin {margin: 2%;}
+
+        nav {
+            background: navy;
+            grid-area: nav;
+            border-style: ridge;
+            border-width: thick;
+            border-color:lightslategray;
+            color: white;
+        }
+
+        #content1 {
+    background: tan;
+    grid-area: content1;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content2 {
+    background: palegreen;
+    grid-area: content2;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content3 {
+    background: tan;
+    grid-area: content3;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content4 {
+    background: palegreen;
+    grid-area: content4;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content5 {
+    background: tan;
+    grid-area: content5;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content6 {
+    background: palegreen;
+    grid-area: content6;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content6_ImageA {
+    grid-area: content6_ImageA;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content6_ImageB {
+    grid-area: content6_ImageB;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+#content7 {
+    background: tan;
+    grid-area: content7;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+
+footer {
+    background: palegreen;
+    grid-area: footer;
+    border-style: ridge;
+    border-width: thick;
+    border-color: lightslategray;
+}
+    </style>
+    
+    <header id="header" style="font-family: Arial Black; text-align: center">
+        <h1>CPS530 Lab 3 Part B (Bootstrap):<br>CRISPR Goats</h1>
+        By: Dante Romita
+    </header>
+    <hr>
+
+    <div class = "container-fluid" style="font-family: Arial">
+        <nav>
+            <h2 style="text-align: center;"><b>Navigate:</b><h2>
+                <div id="defaultDivMargin">
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='#content1';">Overview on Goats</button>
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='#content2';">Origins of Goat Domestication</button>
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='#content3';">Fun Facts About Goats</button>
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='#content4';">What is CRISPR Technology?</button>
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='#content5';">Why CRISPR Goats?</button>
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='#content6';">Images of Goats</button>
+                    <button type="button" class="btn btn-primary" onclick="window.location.href='#content7';">Read More</button>
+                </div>
+        </nav>
+        
+        <div class="row">
+            <div class="col-md-4" id="content1">
+                <div id="defaultDivMargin">
+                    <h3 style="text-align: center;"><b>Overview on Goats:</b></h3>
+                    <p style="text-align: justify;">
+                        Goats are creatures that are typically raised as livestock after domestication.
+                        They are closely related to the common sheep, commonly used for its milk, meat, fur an skins worldwide.
+                        In addition, their hide has been used for waater and wine bottles in both traveling and transporting wine for sale,
+                            as well as to produce parchment.
+                        Wilder goats typically reside in mountain habitats and are quite resillient thanks to their ability to
+                            survive on scarce vegetation, their agility and their ability to grip on the mountainous terrain
+                            with their hooves.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4" id="content2">
+                <div id="defaultDivMargin">
+                    <h3 style="text-align: center;"><b>Origins of Goat Domestication:</b></h3>
+                    <p style="text-align: justify;">
+                        Goats were domesticated from the wild goat, located in both Southwest Asia and Easter Europe.
+                        They are one of the earliest domesticated species of animal ever recording based on archeological evidence.
+                        Goat remains have been found at various archeological sites in various regions in Western Asia between 8,000 and 9,000 years ago.
+                        Their earliest domestication occured in Iran around 10,000 years ago.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4" id="content3">
+                <div id="defaultDivMargin">
+                    <h3 style="text-align: center;"><b>Fun Facts About Goats:</b></h3>
+                    <ul style="margin-right: 3%;">
+                        <li>Female Goats are referred to as <i>does</i> or <i>nannies.</i></li>
+                        <li>Intact males are called <i>bucks</i> or <i>billies</i> while castrated males are called <i>wethers</i>.</li>
+                        <li>Juvenlie goats of both sexes are called <i>kids</i>.</li>
+                        <li>Each breed of goat has specific weight ranges, varying from <i>20 kg</i> to over <i>140 kg</i>.</li>
+                        <li>Goats reach puberty between three and fifteen months of age, breed-dependent.</li>
+                        <li>Goats have a very diverse diet, willing to eat almost anything remotely resembling plant matter.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6" id="content4">
+                <div id="defaultDivMargin">
+                    <h3 style="text-align: center;"><b>What is CRISPR Technology?</b></h3>
+                    <p style="text-align: justify;">
+                        CRISPR is an acronym for <b>clustered regularly interspaced short palindromic repeats</b>.
+                        It is a family of DNA sequences found in the genomes of prokaryotic organisms such as bacteria and archaea.
+                        They are used to detect and destroy DNA from similar bacteriophages during subsequent infections.
+                        Hence these sequences play a key role in the antiviral (i.e. anti-phage) defense system of prokaryotes
+                            and provide a form of acquired immunity.
+                    </p>
+                    <p style="text-align: justify;">
+                        Cas9 (or <b>"CRISPR-associated protein 9"</b>) is an enzyme that uses CRISPR sequences as a guide to recognize and cleave specific 
+                            strands of DNA that are complementary to the CRISPR sequence.
+                        Cas9 enzymes together with CRISPR sequences form the basis of a technology known as CRISPR-Cas9 that can be used to edit
+                            genes within organisms.
+                        This editing process has a wide variety of applications including basic biological research,
+                            development of biotechnological products, and treatment of diseases.
+                        The development of the CRISPR-Cas9 genome editing technique was recognized by the Nobel Prize in Chemistry in 2020.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6" id="content5">
+                <div id="defaultDivMargin">
+                    <h3 style="text-align: center;"><b>Why CRISPR Goats?</b></h3>
+                    <p style="text-align: justify">
+                        CRISPR goats are essentially genetically modified from their original counterparts using the CRISPR-Cas9 technology.
+                        This technology is used because The CRISPR/Cas9 system is effective in the genome editing of large animals,
+                            which are used in biomedical and agricultural applications.
+                        As one example of a practicaly use, some goats are genetically modified to increase the meat and wool they produce.
+                        Uses of genetically modified goats also include the ability to aid digestion and fight dirrhea,
+                            as well as to produce cancer-fighting drugs.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="content6">
+                <div id="defaultDivMargin">
+                    <h3 style="text-align: center;"><b>Images of Gene-Edited Goats</b></h3>
+                    <figcaption>
+                        Images Source: <a href="https://www.newscientist.com/article/2109978-shawl-thing-cashmere-could-soon-come-from-gene-edited-goats/">
+                            https://www.newscientist.com/article/2109978-shawl-thing-cashmere-could-soon-come-from-gene-edited-goats/</a>
+                    </figcaption>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <img class="col-md-6" width="100%" height="100%" id="content6_ImageA"
+                src="https://images.newscientist.com/wp-content/uploads/2016/10/21154550/journal.pone_.0164640.g001.jpg">
+            <img class="col-md-6" width="100%" height="100%" id="content6_ImageB"
+                src="https://images.newscientist.com/wp-content/uploads/2016/10/21150143/fgf5_edited_021_12-months-old.jpg?width=778">
+        </div>
+
+        <div class="row">
+            <div class="col-md-12" id="content7">
+                <div id="defaultDivMargin">
+                    <h3 style="text-align: center;"><b>Read More:</b></h3>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Goat">General Goat Information</a><br></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Capra_(genus)">Capra (Genus)</a><br></li>
+                        <li><a href="https://en.wikipedia.org/wiki/CRISPR">CRISPR Information</a><br></li>
+                        <li><a href="https://www.medicaldaily.com/genetically-modified-goat-milk-benefit-aids-digestion-fights-diarrhea-video-244622">
+                            Genetically Modified Goat Milk Benefit: Aids Digestion, Fights Diarrhea</a><br></li>
+                        <li><a href="https://www.digitaltrends.com/news/genetically-engineered-goats-cancer-drugs/">
+                            Genetically engineered goats could be the key to mass-producing cancer drugs</a><br></li>
+                    <ul>
+                </div>
+            </div>
+        </div>
+
+        <footer class="row">
+            <div class="col-md-12"id="defaultDivMargin">
+                Author: Dante Romita<br>
+                Contact: <a href="mailto:dante.romita@ryerson.ca">dante.romita@ryerson.ca</a>
+            </div>
+        </footer>
+</body>
+</html>

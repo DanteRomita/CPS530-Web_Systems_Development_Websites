@@ -1,0 +1,149 @@
+p.center {
+    text-align:center;
+    font-family:"impact";
+    font-size:xx-large;
+    color-adjust: blue;
+}
+
+.center {text-align:center;}
+.center-vertically {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.dodger_blue {color: #1e90ff;}
+
+#right {text-align:right;}
+
+border-box {
+    width: auto;
+    padding:8px;
+    border:5px solid cyan;
+    margin: auto;
+    text-align:center;
+    border-style: ridge;
+}
+
+.box-model {
+    width: auto;
+    padding:8px;
+    border:5px solid cyan;
+    margin: auto;
+    text-align:center;
+    border-style: ridge;
+}
+
+:target {
+    border: 4px solid magenta;
+    background-color: dodgerblue;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+#big-first-letter::first-letter {font-size: 200%; float: top; color: #1e90ff}
+
+label {
+    cursor: pointer;
+    border:1px solid darkgreen;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+label:hover{
+    background-color: dodgerblue;
+}
+
+#show,#content{display:none;}
+#show:checked~#content{display:block;}
+
+/*CUSTOM BUTTON DESIGNS*/
+
+.button-CPS305 {
+    background-color: maroon; /* Green */
+    border-width: thick;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.button-CPS393 {
+    background-color: orangered; /* Green */
+    border-width: thick;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.button-CPS530 {
+    background-color: green; /* Green */
+    border-width: thick;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.button-PSY105 {
+    background-color: darkslategray; /* Green */
+    border-width: thick;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+}
+
+.button-RTA928 {
+    background-color: purple; /* Green */
+    border-width: thick;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+}
+
+/*X UNIVERSITY LOGO CONTAINERS*/
+
+.X-Uni-Purple-Block {
+    background-color:purple; 
+    width:300px; 
+    height:100px; 
+    z-index:1;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+}
+.X-Uni-Orange-Block {
+    background-color:orange; 
+    width:40px; 
+    height:100px; 
+    position:relative; 
+    top:-14px; 
+    left:280px; 
+    z-index:2;
+}
+
+.X-Uni-Text {
+    font-family: 'Bebas Neue', cursive;
+    color:orange;
+    font-size: 350%;
+}
